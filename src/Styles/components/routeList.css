@@ -1,0 +1,10 @@
+.RouteListWrapper {
+  background-color: rgb(14, 132, 132);
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 0.5rem;
+  padding: 1rem 0;
+}/*# sourceMappingURL=routeList.css.map */

@@ -1,0 +1,24 @@
+@use "../variables/colors";
+
+.CanvasOuterWrapper {
+  background-color: colors.$base-color-light;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 400px;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.CanvasHeading {
+  color: white;
+}
+
+.ButtonWrapper {
+  align-self: end;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}

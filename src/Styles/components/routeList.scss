@@ -1,0 +1,12 @@
+@use "../variables/colors";
+
+.RouteListWrapper {
+  background-color: colors.$base-color-light;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 0.5rem;
+  padding: 1rem 0;
+}

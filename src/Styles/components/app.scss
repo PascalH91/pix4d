@@ -1,0 +1,23 @@
+@use "../variables/colors";
+
+:root {
+  background: radial-gradient(transparent 70%, #00000090),
+    linear-gradient(colors.$base-color-main, colors.$base-color-main);
+}
+
+.Button {
+  color: white !important;
+  background-color: colors.$base-color-light !important;
+  border: 1px solid white !important;
+}
+
+.Button:hover {
+  background-color: white !important;
+  color: colors.$base-color-light !important;
+  border: 1px solid white !important;
+}
+
+.TextButton {
+  @extend .Button;
+  padding: 0.5rem 1rem !important;
+}

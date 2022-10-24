@@ -1,0 +1,22 @@
+.CanvasOuterWrapper {
+  background-color: rgb(14, 132, 132);
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 400px;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.CanvasHeading {
+  color: white;
+}
+
+.ButtonWrapper {
+  align-self: end;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}/*# sourceMappingURL=drawingSection.css.map */

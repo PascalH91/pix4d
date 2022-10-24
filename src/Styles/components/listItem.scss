@@ -1,0 +1,29 @@
+@use "../variables/colors";
+@use "../components/app";
+
+.ListItemWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.PathDate {
+  padding: 0.5rem 1rem;
+  font-size: 0.8rem;
+}
+
+.ListItemButton {
+  display: grid !important;
+  grid-template-columns: 50px 1fr;
+  box-shadow: 0.5rem 0.5rem 0.5rem #00000030;
+  width: calc(100% - 2rem);
+  padding: 0 !important;
+  border-radius: 0.3rem !important;
+  @extend .Button;
+}
+
+.SelectedListItemButton {
+  @extend .ListItemButton;
+  border: 2px solid rgb(19, 181, 57) !important;
+}
